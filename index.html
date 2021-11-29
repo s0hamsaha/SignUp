@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="container" id="container">
+    <div class="header">
+        <h2>Create Account</h2>
+    </div>
+    <form class="form" id="form">
+        <div class="form-control" id="user">
+            <label>Username</label>
+            <input type="text"  id="username">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error Message</small>
+        </div>
+        <div class="form-control" id="email">
+            <label>EmailId</label>
+            <input type="email"  id="emailid">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error Message</small>
+        </div>
+        <div class="form-control" id="pass">
+            <label>Password</label>
+            <input type="password"  id="password" autocomplete="on">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error Message</small>
+        </div>
+        <div class="form-control" id="pass1">
+            <label>Re-enter Password</label>
+            <input type="password"  id="password1" autocomplete="on">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error Message</small>
+        </div>
+        <button id="open">Submit</button>
+    </form>
+    </div>
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <h2>Sign-up Successful!</h2>
+            <button id="close">Okay</button>
+        </div>
+    </div>
+    <script src=app.js></script>    
+</body>
+</html>
